@@ -68,8 +68,12 @@ def playerTurn(curWord, name):
     
     return parsed
 
+  elif parsed == -3:
+    print(helptxt)
+    return -2
+  
   elif parsed == -2:
-    print("  Invalid Input.")
+    print("  Invalid Input. Type /help for help.")
     return parsed
 
   else:
@@ -155,6 +159,10 @@ def zykaTurn(curWord, name):
 
 tree = loadTree("tree/tree.p")
 words = loadWords("tree/u.txt")
+
+with open("help.txt", 'r') as f:
+  helptxt = f.read()
+
 score = [0,0] # First element is player score, second element is zyka score
 
 def main():

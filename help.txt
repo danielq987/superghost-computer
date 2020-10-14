@@ -1,0 +1,5 @@
+
+To add a letter to the front or back of the current letters on the board, type the new word.
+For example, to add "j" to the beginning of "et", simply type jet.
+
+If you would like to challenge Zyka, either because the letters on the board form a word or you are unsure of the goal word, type /ch or /challenge.
