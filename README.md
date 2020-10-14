@@ -1,2 +1,3 @@
-# superghost-computer
-A superghost computer to play with, and program to return the best option for each move!
+# sg-computer
+A superghost computer which will always return the best move!
+
