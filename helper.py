@@ -73,6 +73,7 @@ def parseInput(inp, word):
   On a regular turn, parseInput returns the updated word.
   If the input indicates a challenge, parseInput returns -1.
   If the input is invalid, parseInput returns -2.
+  If the input indicates help, parseInput returns -3.
   """
   line = [i.lower() for i in inp.split()]
   lenInput= len(line)
@@ -83,9 +84,12 @@ def parseInput(inp, word):
   else:
     line = line[0]
     challenge = ["/ch", "/chal", "/challenge"]
+    helptext = ["/h", "/help"]
     if line in challenge:
       return -1
-    elif word in line and len(word) + 1 == len(line) and line.isalpha():
+    if line in helptext:
+      return -3
+    elif word in line and len(word) + 1 == len(line) and line.isalpha:
       return line
     else:
       return -2
