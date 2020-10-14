@@ -1,0 +1,18 @@
+Superghost with Zyka!
+
+For general rules of the game, visit https://www.wikiwand.com/en/Ghost_(game).
+
+To play, start by inputting your name.
+
+On each turn, you may either play a letter or challenge.
+
+Play a letter with the following format: <letter> <before/after>
+E.g: a before 
+will insert an "a" before the current letters.
+
+To challenge, enter: ch
+This will bring you to a series of prompts to verify the challenge.
+
+Zyka will produce the optimal move at each turn. :D
+
+Enjoy!
