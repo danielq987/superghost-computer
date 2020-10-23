@@ -15,5 +15,5 @@ At any point during your turn, you can type /ch to challenge, and follow the pro
 ## How it's made
 This simple python app sits on the foundation of https://github.com/danielq987/superghost-tree. Essentially that program generates a tree of all the possible moves which can be achieved in a game of two-person superghost, and labels each as a goal for player 1 or player 2. 
 
-This app simply traverses that tree to find the guaranteed winning move and subsequent moves, as well as choosing the move with the highest probability of winning if there is no guaranteed win. More info about this project can be found on my not-yet-existing blog (hopefully up soon)!
+This app simply traverses that tree to find the guaranteed winning move and subsequent moves, as well as choosing the move with the highest probability of winning if there is no guaranteed win. More info about this project can be found on my blog [here](https://danielq987.github.io/blog/posts/2020/10/15/superghost.html)!
 
