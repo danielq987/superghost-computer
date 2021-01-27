@@ -1,7 +1,5 @@
 # superghost-computer
-A superghost bot called Zyka that YOU can play with! She will *always* return the best moves, so don't expect to win without serious strategy!
-
-^-^
+A superghost bot YOU can play with!
 
 Superghost is a traditional pen-and-paper game, and more information about the rules can be found here: https://www.wikiwand.com/en/Ghost_(game)
 
